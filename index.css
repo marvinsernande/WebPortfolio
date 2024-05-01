@@ -1,0 +1,74 @@
+#heading{
+	background-image:url(images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	height: 100vh;
+/*	width: 100%;*/
+	z-index: 2;
+}
+
+
+#landing{
+	height: 100vh;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	z-index: 5;
+	background-color: rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(8px);
+	padding: 0px;
+	margin: 0px;
+}
+#landing > h1{
+	letter-spacing: 1.6px;
+}
+
+.section-btn {
+	background-color: transparent;
+	border: 3px solid #232B2B;
+	border-radius: 100px;
+	color: #232B2B;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 12px 36px;
+	margin-top: 2px;
+	transition: all 0.4s ease-in-out;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+h2{
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+}
+#about{
+	height: 50%;
+	font-family: "Montserrat", sans-serif;
+	font-size: 23px;
+	padding-top: 50px;
+}
+#about > h2{
+	margin-top: 50px;
+}
+#about-img{
+	padding: 0px;
+}
+#tools{
+	padding-top: 60px;
+	height: 100%;
+	margin-top: 50px;
+}
+#contact{
+	padding-top: 80px;
+	height: 100vh;
+	margin-top: 50px;
+}
+#contact-section{
+	max-width: 500px;
+}
+body{
+	background-color: #3bb9b230;
+}
